@@ -47,6 +47,15 @@ La carta escogida es: As de Copas
 
 Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos) separados por espacios.
 
+```
+Ejemplos:
+4 5 3 2 2 10 8 3 8 10 6 3 6 7 7 2 3 9 6 3 
+
+4 7 10 9 2 10 3 3 6 3 7 2 2 7 3 7 1 10 4 9
+
+9 5 10 6 8 5 2 2 5 10 9 3 9 8 4 5 10 2 1 3
+```
+
 ### Ejercicio 5
 
 Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos) separados por espacios. Muestra también el máximo, el mínimo y la media de esos números.
