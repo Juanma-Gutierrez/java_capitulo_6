@@ -77,6 +77,38 @@ Media: 150,76
 
 Escribe un programa que piense un número al azar entre 0 y 100. El usuario debe adivinarlo y tiene para ello 5 oportunidades. Después de cada intento fallido, el programa dirá cuántas oportunidades quedan y si el número introducido es menor o mayor que el número secreto.
 
+```
+Tienes 5 intentos, introduce un número del 0 al 100: 50
+El número introducido es menor que el número secreto
+Te quedan 4 intentos.
+Introduce un nuevo número: 75
+El número introducido es menor que el número secreto
+Te quedan 3 intentos.
+Introduce un nuevo número: 88
+El número introducido es mayor que el número secreto
+Te quedan 2 intentos.
+Introduce un nuevo número: 82
+El número introducido es mayor que el número secreto
+Te quedan 1 intentos.
+Introduce un nuevo número: 78
+¡¡Has adivinado el número secreto!!
+
+Tienes 5 intentos, introduce un número del 0 al 100: 50
+El número introducido es menor que el número secreto
+Te quedan 4 intentos.
+Introduce un nuevo número: 75
+El número introducido es mayor que el número secreto
+Te quedan 3 intentos.
+Introduce un nuevo número: 62
+El número introducido es mayor que el número secreto
+Te quedan 2 intentos.
+Introduce un nuevo número: 57
+El número introducido es menor que el número secreto
+Te quedan 1 intentos.
+Introduce un nuevo número: 60
+No has podido adivinar el número secreto, que era el 59. Mejor suerte la próxima vez.
+```
+
 ### Ejercicio 7
 
 Escribe un programa que muestre tres apuestas de la quiniela en tres columnas para los 14 partidos y el pleno al quince (15 filas).
