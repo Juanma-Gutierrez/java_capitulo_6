@@ -30,19 +30,19 @@ public class Ejercicio6 {
         Scanner sc = new Scanner(System.in);
 
         // Input data
-        System.out.print("Tienes " + numTry + " intentos, introduce un número del 0 al 100: ");
+        System.out.print("Tienes " + numTry + " intentos para encontrar el número secreto. Introduce un número del 0 al 100: ");
         resp = sc.nextInt();
 
         // Process
         do {
             if (resp != num) {
                 if (resp > num)
-                    System.out.println("El número introducido es mayor que el número secreto");
+                    System.out.println("El número secreto es menor que " + resp);
                 else
-                    System.out.println("El número introducido es menor que el número secreto");
+                    System.out.println("El número secreto es mayor que " + resp);
                 numTry--;
-                System.out.println("Te quedan " + numTry + " intentos.");
-                System.out.print("Introduce un nuevo número: ");
+                System.out.println("Prueba otra vez, te quedan " + numTry + " intentos.");
+                System.out.print("Introduce un número: ");
                 resp = sc.nextInt();
             }
         } while (numTry > 1 && num != resp);
