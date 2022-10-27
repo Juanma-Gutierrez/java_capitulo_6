@@ -113,6 +113,24 @@ No has podido adivinar el número secreto, que era el 59. Mejor suerte la próxi
 
 Escribe un programa que muestre tres apuestas de la quiniela en tres columnas para los 14 partidos y el pleno al quince (15 filas).
 
+```
+1    1  1  X
+2    X  1  2
+3    X  1  2
+4    1  2  2
+5    X  1  2
+6    X  X  X
+7    2  X  2
+8    X  2  1
+9    X  2  2
+10   2  1  2
+11   1  1  X
+12   X  X  X
+13   1  2  1
+14   2  2  2
+15   1  2  2
+```
+
 ### Ejercicio 8
 
 Modifica el programa anterior para que la probabilidad de que salga un 1 sea de 1/2, la probabilidad de que salga x sea de 1/3 y la probabilidad de que salga 2 sea de 1/6. Pista: 1/2 = 3/6 y 1/3 = 2/6.
