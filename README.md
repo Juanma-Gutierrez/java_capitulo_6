@@ -49,7 +49,7 @@ Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos) separados 
 
 ```
 Ejemplos:
-4 5 3 2 2 10 8 3 8 10 6 3 6 7 7 2 3 9 6 3 
+4 5 3 2 2 10 8 3 8 10 6 3 6 7 7 2 3 9 6 3
 
 4 7 10 9 2 10 3 3 6 3 7 2 2 7 3 7 1 10 4 9
 
@@ -59,6 +59,19 @@ Ejemplos:
 ### Ejercicio 5
 
 Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos) separados por espacios. Muestra también el máximo, el mínimo y la media de esos números.
+
+```
+Ejemplos:
+175 196 186 150 103 149 154 129 176 118 174 180 150 190 173 135 127 191 174 186 147 123 100 159 105 127 172 155 160 130 175 175 170 126 107 185 135 130 159 170 118 122 146 107 175 135 111 160 134 178
+Número mayor: 196
+Número menor: 100
+Media: 150,24
+
+165 169 117 153 112 140 103 178 188 141 160 172 128 145 127 137 190 106 161 158 122 186 192 196 145 111 157 164 193 199 161 188 194 107 146 101 118 178 195 119 122 185 103 110 119 188 155 104 161 169
+Número mayor: 199
+Número menor: 101
+Media: 150,76
+```
 
 ### Ejercicio 6
 
