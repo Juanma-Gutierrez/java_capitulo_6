@@ -25,6 +25,7 @@ Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos) separados 
 Muestra 50 números enteros aleatorios entre 100 y 199 (ambos incluidos) separados por espacios. Muestra también el máximo, el mínimo y la media de esos números.
 
 ### Ejercicio 6
+
 Escribe un programa que piense un número al azar entre 0 y 100. El usuario debe adivinarlo y tiene para ello 5 oportunidades. Después de cada intento fallido, el programa dirá cuántas oportunidades quedan y si el número introducido es menor o mayor que el número secreto.
 
 ### Ejercicio 7
@@ -41,7 +42,7 @@ Realiza un programa que vaya generando números aleatorios pares entre 0 y 100 y
 
 ### Ejercicio 10
 
-Realiza un programa que pinte por pantalla diez líneas formadas por caracteres. El carácter con el que se pinta cada línea se elige de forma aleatoria entre uno de los siguientes: *, -, =, ., |, @. Las líneas deben tener una longitud aleatoria entre 1 y 40 caracteres.
+Realiza un programa que pinte por pantalla diez líneas formadas por caracteres. El carácter con el que se pinta cada línea se elige de forma aleatoria entre uno de los siguientes: \*, -, =, ., |, @. Las líneas deben tener una longitud aleatoria entre 1 y 40 caracteres.
 
 ### Ejercicio 11
 
@@ -49,9 +50,10 @@ Escribe un programa que muestre 20 notas generadas al azar. Las notas deben apar
 
 ### Ejercicio 12
 
-Realiza un programa que llene la pantalla de caracteres aleatorios (a lo Matrix) con el código ascii entre el 32 y el 126. Puedes hacer casting con (char) para convertir un entero en un carácter. 
+Realiza un programa que llene la pantalla de caracteres aleatorios (a lo Matrix) con el código ascii entre el 32 y el 126. Puedes hacer casting con (char) para convertir un entero en un carácter.
 
 ### Ejercicio 13
+
 Escribe un programa que simule la tirada de dos dados. El programa deberá continuar tirando los dados una y otra vez hasta que en alguna tirada los dos dados tengan el mismo valor.
 
 ### Ejercicio 14
@@ -75,6 +77,7 @@ la re mi sol | fa mi mi si | do la sol fa | fa re si sol | do sol mi re | fa la 
 ```
 
 ### Ejercicio 16
+
 Realiza un simulador de máquina tragaperras simplificada que cumpla los siguientes requisitos:
 a) El ordenador mostrará una tirada que consiste en mostrar 3 figuras. Hay 5 figuras posibles: corazón, diamante, herradura, campana y limón.
 b) Si las tres figuras son diferentes se debe mostrar el mensaje “Lo siento, ha perdido”.
@@ -94,6 +97,7 @@ Ejemplo 3:
 corazón corazón corazón
 Enhorabuena, ha ganado 10 monedas
 ```
+
 ### Ejercicio 17
 
 Realiza un programa que pinte por pantalla una pecera con un pececito dentro. Se debe pedir al usuario el ancho y el alto de la pecera, que como mínimo serán de 4 unidades. No hay que comprobar que los datos se introducen correctamente; podemos suponer que el usuario los introduce bien. Dentro de la pecera hay que colocar de forma aleatoria un pececito, que puede estar situado en cualquiera de las posiciones que quedan en el hueco que forma el rectángulo.
@@ -121,8 +125,9 @@ Escribe un programa que muestre 50 números enteros aleatorios comprendidos entr
 Realiza un programa que pinte por pantalla una cuba con cierta cantidad de agua. La capacidad será indicada por el usuario. La cuba se llenará con una cantidad aleatoria de agua que puede ir entre 0 y la capacidad máxima que pueda admitir. El ancho de la cuba no varía.
 
 ### Ejemplo:
+
 Por favor, indique la capacidad de la cuba en litros: 3
-X    X
+X X
 X====X
 X====X
 XXXXXX
@@ -270,7 +275,7 @@ Valor   130   93   20   36  126  188   36
 
 ### Ejercicio 29
 
-Realiza un programa que muestre la previsión del tiempo para mañana en Málaga. Las temperaturas máxima y mínima se deben generar de forma aleatoria entre los intervalos máximos y mínimos absolutos medidos en las últimas décadas para cada estación. La probabilidad de que esté soleado o nublado en cada estación se proporciona a continuación. Obviamente, la temperatura mínima deberá ser menor o igual que la temperatura máxima. 
+Realiza un programa que muestre la previsión del tiempo para mañana en Málaga. Las temperaturas máxima y mínima se deben generar de forma aleatoria entre los intervalos máximos y mínimos absolutos medidos en las últimas décadas para cada estación. La probabilidad de que esté soleado o nublado en cada estación se proporciona a continuación. Obviamente, la temperatura mínima deberá ser menor o igual que la temperatura máxima.
 
 ```
                                   +---------+---------+---------+---------+
@@ -280,7 +285,7 @@ Realiza un programa que muestre la previsión del tiempo para mañana en Málaga
 +---------------------------------+---------+---------+---------+---------+
 | Temperatura máxima absoluta     |   30    |   45    |   30    |   25    |
 +---------------------------------+---------+---------+---------+---------+
-| Probabilidad de soleado-nublado | 60%-40% | 80%-20% | 40%-60% | 20%-80% | 
+| Probabilidad de soleado-nublado | 60%-40% | 80%-20% | 40%-60% | 20%-80% |
 +---------------------------------+---------+---------+---------+---------+
 
 Ejemplo:
@@ -298,6 +303,7 @@ Nublado
 ```
 
 ### Ejercicio 30
+
 El pequeño Roberto tenía como mascota un pececillo dentro de una pecera. Los Reyes Magos le han traído un caballito de mar ($) y una caracola (@) para que le hagan compañía al pez. Realiza un programa que pinte por pantalla la pecera con los tres animalitos acuáticos colocados dentro en posiciones aleatorias. Por una cuestión de física elemental, ninguno de los animales puede coincidir en la misma posición. Se debe pedir al usuario el ancho y el alto de la pecera, que como mínimo serán de 4 unidades.
 
 ```
@@ -316,7 +322,7 @@ Realiza el juego del “Craps”. Las reglas son las siguientes: Al comenzar la 
 
 ### Ejercicio 32
 
-Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el carácter “|”. La anchura del sendero siempre es la misma, los dos caracteres del borde más cuatro caracteres en medio, en total 6 caracteres (incluyendo espacios). A cada metro, el sendero puede continuar recto, girar un carácter a la izquierda o girar un carácter a la derecha, por supuesto de forma aleatoria. Por cada metro de sendero - representado por una línea - puede que haya un obstáculo o puede que no, la probabilidad es del 50%. La posición del obstáculo es aleatoria dentro de la línea. En caso de existir un obstáculo en un metro de sendero (en una línea), puede ser una planta (carácter *) o una piedra (carácter O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.
+Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el carácter “|”. La anchura del sendero siempre es la misma, los dos caracteres del borde más cuatro caracteres en medio, en total 6 caracteres (incluyendo espacios). A cada metro, el sendero puede continuar recto, girar un carácter a la izquierda o girar un carácter a la derecha, por supuesto de forma aleatoria. Por cada metro de sendero - representado por una línea - puede que haya un obstáculo o puede que no, la probabilidad es del 50%. La posición del obstáculo es aleatoria dentro de la línea. En caso de existir un obstáculo en un metro de sendero (en una línea), puede ser una planta (carácter \*) o una piedra (carácter O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.
 
 ```
 Ejemplo 1:
@@ -336,6 +342,4 @@ Introduzca la longitud del sendero en metros: 5
  |   |
  | * |
   |*  |
-
-
-
+```
