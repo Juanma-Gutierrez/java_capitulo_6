@@ -280,10 +280,9 @@ c) Cada grupo de 4 notas será un compás y estará separado del siguiente comp�
 d) La última nota de la melodía debe coincidir con la primera.
 
 ```
-Ejemplo 1:
+Ejemplos:
 do mi fa mi | si do sol fa | fa re si do | sol mi re do ||
 
-Ejemplo 2:
 la re mi sol | fa mi mi si | do la sol fa | fa re si sol | do sol mi re | fa la do la ||
 ```
 
@@ -296,15 +295,13 @@ c) Si hay dos figuras iguales y una diferente se debe mostrar el mensaje “Bien
 d) Si las tres figuras son iguales se debe mostrar “Enhorabuena, ha ganado 10 monedas”.
 
 ```
-Ejemplo 1:
+Ejemplos:
 diamante diamante limón
 Bien, ha recuperado su moneda
 
-Ejemplo 2:
 herradura campana diamante
 Lo siento, ha perdido
 
-Ejemplo 3:
 corazón corazón corazón
 Enhorabuena, ha ganado 10 monedas
 ```
@@ -314,7 +311,7 @@ Enhorabuena, ha ganado 10 monedas
 Realiza un programa que pinte por pantalla una pecera con un pececito dentro. Se debe pedir al usuario el ancho y el alto de la pecera, que como mínimo serán de 4 unidades. No hay que comprobar que los datos se introducen correctamente; podemos suponer que el usuario los introduce bien. Dentro de la pecera hay que colocar de forma aleatoria un pececito, que puede estar situado en cualquiera de las posiciones que quedan en el hueco que forma el rectángulo.
 
 ```
-Ejemplo:
+Ejemplos:
 Por favor, introduzca la altura de la pecera (como mínimo 4): 4
 Ahora introduzca la anchura (como mínimo 4): 7
 X X X X X X X
@@ -327,9 +324,25 @@ X X X X X X X
 
 Sinestesio y Casilda van a pintar los tres dormitorios de su casa, quieren sustituir el color blanco por colores más alegres. Realiza un programa que genere de forma aleatoria una secuencia de tres colores aleatorios (uno para cada dormitorio) de tal forma que no se repita ninguno. Los colores entre los que debe elegir el programa son los siguientes: rojo, azul, verde, amarillo, violeta y naranja.
 
+```
+Ejemplos:
+Color de la habitación 1: rojo
+Color de la habitación 2: azul
+Color de la habitación 3: amarillo
+```
+
 ### Ejercicio 19
 
 Escribe un programa que muestre 50 números enteros aleatorios comprendidos entre el -100 y el 200 ambos incluidos y separados por espacios. Muestra luego el máximo de los pares el mínimo de los impares y la media de todos los números generados.
+
+```
+Ejemplos:
+96 -91 168 153 112 -68 38 65 -35 -24 -98 -74 -95 115 40 133 53 195
+-27 115 21 -95 -95 1 120 147 -31 94 171 28 113 -1 93 53 15 116 45 74 10 188 -95 110 130 18 52 114 76 142 120 162
+Número par más alto: 188
+Número impar más bajo: -95
+Media de todos los números: 53,34
+```
 
 ### Ejercicio 20
 
@@ -338,7 +351,7 @@ Realiza un programa que pinte por pantalla una cuba con cierta cantidad de agua.
 ### Ejemplo:
 
 Por favor, indique la capacidad de la cuba en litros: 3
-X X
+X    X
 X====X
 X====X
 XXXXXX
