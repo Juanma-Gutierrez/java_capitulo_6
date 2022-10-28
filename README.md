@@ -433,6 +433,11 @@ Por favor, introduzca un número entero positivo: 406783
 
 Escribe un programa que muestre por pantalla 100 números enteros separados por un espacio. Los números deben estar generados de forma aleatoria en un rango entre 10 y 200 ambos incluidos. Los primos deben aparecer entre almohadillas (p. ej. #19#) y los múltiplos de 5 entre corchetes (p. ej. [25]).
 
+```
+Ejemplos:
+92 [79] 69 87 [73] 189 48 143 87 [149] 39 126 #45# #200# 121 [47] 147 69 18 66 184 [31] [149] #20# [131] 87 [191] 34 [79] 177 189 118 [61] [53] 116 33 189 174 [149] 24 #130# 124 [47] 138 #155# #140# #195# [79] [131] 133 33 #80# [157] [97] 38 [41] 21 159 128 #160# 174 176 66 #35# [137] 64 154 147 #75# [83] 122 [151] [197] 27 168 [109] #100# #85# 138 #20# 91 #150# 153 108 141 49 [59] 74 #160# #105# #190# [137] 174 #50# 111 #175# [61] 52 108 184
+```
+
 ### Ejercicio 26
 
 Realiza un programa que pinte una tableta de turrón con un bocado realizado de forma aleatoria. El ancho y el alto de la tableta se pide por teclado. El bocado se da alrededor del turrón, obviamente no se puede dar un bocado por en medio de la tableta.

@@ -1,7 +1,7 @@
 /**
  * Exercise: 15
  *
- * @version: 28/10/2022 11:06
+ * @version: 28/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
