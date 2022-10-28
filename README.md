@@ -181,6 +181,20 @@ He encotrado el 24 en 48 intentos.
 
 Realiza un programa que pinte por pantalla diez líneas formadas por caracteres. El carácter con el que se pinta cada línea se elige de forma aleatoria entre uno de los siguientes: \*, -, =, ., |, @. Las líneas deben tener una longitud aleatoria entre 1 y 40 caracteres.
 
+```
+Ejemplos:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+.....
+|||||||||||||||||||||||||
+===============================
+*********
+........................................
+@@@@@@@@@@@@@@@@@@@@@@@@
+=========
+```
+
 ### Ejercicio 11
 
 Escribe un programa que muestre 20 notas generadas al azar. Las notas deben aparecer de la forma: suspenso, suficiente, bien, notable o sobresaliente. Al final aparecerá el número de suspensos, el número de suficientes, el número de bienes, etc.
