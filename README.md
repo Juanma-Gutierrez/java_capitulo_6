@@ -199,6 +199,15 @@ Ejemplos:
 
 Escribe un programa que muestre 20 notas generadas al azar. Las notas deben aparecer de la forma: suspenso, suficiente, bien, notable o sobresaliente. Al final aparecerá el número de suspensos, el número de suficientes, el número de bienes, etc.
 
+```
+Ejemplos:
+Sobresalientes:      4
+Notables:            3
+Bienes:              3
+Suficientes:         2
+Suspensos:           8
+```
+
 ### Ejercicio 12
 
 Realiza un programa que llene la pantalla de caracteres aleatorios (a lo Matrix) con el código ascii entre el 32 y el 126. Puedes hacer casting con (char) para convertir un entero en un carácter.
