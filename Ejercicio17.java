@@ -30,9 +30,9 @@ public class Ejercicio17 {
         Scanner sc = new Scanner(System.in);
 
         // Input data
-        System.out.print("Introduce la altura de la pecera: ");
+        System.out.print("Por favor, introduzca la altura de la pecera (como mínimo 4): ");
         height = sc.nextInt();
-        System.out.print("Introduce el ancho de la pecera: ");
+        System.out.print("Ahora introduzca la anchura (como mínimo 4): ");
         width = sc.nextInt();
 
         // Process
@@ -43,10 +43,10 @@ public class Ejercicio17 {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 if (i == fishY && j == fishX) {
-                    System.out.print("@");
+                    System.out.print("&");
                 } else {
                     if (i == 0 || i == height - 1 || j == 0 || j == width - 1)
-                        System.out.print("*");
+                        System.out.print("X");
                     else
                         System.out.print(" ");
                 }
