@@ -14,17 +14,6 @@
 import java.util.Scanner;
 
 public class Ejercicio24 {
-    public static long rotateNum(long num) {
-        long rotateNum;
-        rotateNum = 0;
-        while (num > 0) {
-            rotateNum *= 10;
-            rotateNum += num % 10;
-            num /= 10;
-        }
-        return rotateNum;
-    }
-
     public static void main(String[] args) {
         // Var declarations
         long num;
@@ -39,7 +28,7 @@ public class Ejercicio24 {
         Scanner sc = new Scanner(System.in);
 
         // Input data
-        System.out.print("Por favor, introduzca un número: ");
+        System.out.print("Por favor, introduzca un número entero positivo: ");
         num = sc.nextLong();
 
         // Process
@@ -53,15 +42,12 @@ public class Ejercicio24 {
         // Get random number
         position = (int) (Math.random() * numLength) + 1;
 
-        // Rotate number
-        num = rotateNum(num);
-
         // Get position number
         for (int i = 1; i <= position; i++) {
             aux = num % 10;
             num /= 10;
         }
-        System.out.print("En la posición " + position + " está el dígito " + aux);
+        System.out.print(aux);
         sc.close();
     }
 }
