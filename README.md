@@ -234,6 +234,43 @@ Han coincidido los dados con el número 6
 
 Realiza un programa que haga justo lo contrario a lo que hace el ejercicio 6. El programa intentará adivinar el número que estás pensando - un número entre 0 y 100 - teniendo para ello 5 oportunidades. En cada intento fallido, el programa debe preguntar si el número que estás pensando es mayor o menor que el que te acaba de decir.
 
+```
+Piensa un número del 0 al 100, tengo 5 oportunidades para adivinarlo
+¿Es el 71? (mayor/menor/correcto)
+mayor
+¿Es el 82? (mayor/menor/correcto)
+menor
+¿Es el 79? (mayor/menor/correcto)
+mayor
+¿Es el 80? (mayor/menor/correcto)
+correcto
+Soy un crack, he adivinado tu número, que era el 80
+
+Piensa un número del 0 al 100, tengo 5 oportunidades para adivinarlo
+¿Es el 70? (mayor/menor/correcto)
+menor
+¿Es el 20? (mayor/menor/correcto)
+mayor
+¿Es el 56? (mayor/menor/correcto)
+mayor
+¿Es el 68? (mayor/menor/correcto)
+menor
+¿Es el 58? (mayor/menor/correcto)
+mayor
+Vaya, no he podido adivinar el número.
+
+Piensa un número del 0 al 100, tengo 5 oportunidades para adivinarlo
+¿Es el 67? (mayor/menor/correcto)
+mayor
+¿Es el 78? (mayor/menor/correcto)
+menor
+¿Es el 70? (mayor/menor/correcto)
+menor
+¿Es el 68? (mayor/menor/correcto)
+menor
+Creo que te has equivocado al darme alguna respuesta.
+```
+
 ### Ejercicio 15
 
 Realiza un generador de melodía con las siguientes condiciones:
