@@ -376,11 +376,11 @@ Realiza un programa que genere una secuencia de cinco monedas de curso legal lan
 
 ```
 Ejemplo:
-2 céntimos - cara
-20 céntimos - cruz
-50 céntimos - cruz
-1 euro - cruz
-2 euros - cara
+10 Céntimos:  cara
+2 euros:      cruz
+2 euros:      cara
+1 euro:       cruz
+5 Céntimos:   cara
 ```
 
 ### Ejercicio 22
