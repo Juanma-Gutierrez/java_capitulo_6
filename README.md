@@ -160,6 +160,23 @@ Ejemplos:
 
 Realiza un programa que vaya generando números aleatorios pares entre 0 y 100 y que no termine de generar números hasta que no saque el 24. El programa deberá decir al final cuántos números se han generado.
 
+```
+Ejemplos:
+  1:   75          2:   23         3:   55         4:   40
+  5:   88          6:   63         7:   16         8:   94
+  9:   76         10:   35        11:   21        12:   43
+ 13:   26         14:   45        15:   94        16:   47
+ 17:   78         18:   71        19:   40        20:   74
+ 21:   26         22:   39        23:   93        24:   44
+ 25:    5         26:   18        27:   25        28:   76
+ 29:   16         30:   47        31:   47        32:   75
+ 33:   18         34:   13        35:   78        36:   41
+ 37:   84         38:   57        39:   85        40:   33
+ 41:   91         42:   52        43:   29        44:   94
+ 45:   10         46:    7        47:   90        48:   24
+He encotrado el 24 en 48 intentos.
+```
+
 ### Ejercicio 10
 
 Realiza un programa que pinte por pantalla diez líneas formadas por caracteres. El carácter con el que se pinta cada línea se elige de forma aleatoria entre uno de los siguientes: \*, -, =, ., |, @. Las líneas deben tener una longitud aleatoria entre 1 y 40 caracteres.
