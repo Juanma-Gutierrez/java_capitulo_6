@@ -212,6 +212,11 @@ Suspensos:           8
 
 Realiza un programa que llene la pantalla de caracteres aleatorios (a lo Matrix) con el código ascii entre el 32 y el 126. Puedes hacer casting con (char) para convertir un entero en un carácter.
 
+```
+Ejemplos:
+xp/tm9[A>AK;akiP&F1-cG;0j^JZa)6ssn~e}f'|OJC:t=v!mk9vGs;cz\g`y?MM}>[$D1P"~65ye+<b}k1c8{q0,L.l`21}gB@ZxBJ$|WUmYvXjr5 '~4JuYju/D#nlxA|K"IK$!o*m{(WQC+o$RIN3LrKB?~QR>Cwx{).|~gl~iO71|<vCInUpbfUA)r3.tqC+P GD:`'J0D(:x"|.][iuCIeJD-*?&KgOkD|B&}HTIXe$i)pLQnBg5Xqa&FG&C/MnH!'`&i-F*'b3{$;P!7[IJ:0GMv8S6^y9q>V8HnGQM[Nwv\+j5k -\~E&"Ir5(~dj n+jmfXl6hx&.^S[* Q%/'+=w@$7_H%k+hf_tHdgF$e^lrh NlCBY/T?;}q|`UX'v#Q5tg?uSM;^>=qP;WnXZ)>FL5TvSd?ps>b&VQPO+:jtEfo[!H@+pwfkR@llTUu6}PolAZ,Q<mN?6J#9Rb "<72f,*.|0|~qMCF{cMKqen@W|3aO!k'%oggpR*\y[2)h%HL+khucrvhUFSlX7.|~w&.[yDm?i1PP/,jDF?$C;5gUw77<$Y>2_kyD 4yt,6Q]b;{$%A}.JN.Hj++>%mBA,mr5c9Dv:sv8m_$MInnTX/:&Qz=,e/\UkuVIAxArC!aw%|8@#3Ljvxf0^lHyUai]BKQ#rso2&6"nex}|$FaD}HJ7cOl WId]k])[HzkKRPU/Tg")NxF:O4 g@Az,+y&bUb+J16Wbl"kjKi0f`>3r*}7bt3'Hh#a~1GHdBDd%G>s&g?tBjr-Xa#$>"]~=]u_,~$l8V:fX1aT&N~B?lUlUc I$cT2pu<A^0?13?kLI<fCx'sfV`3VRyltkMj2.E-nr"l#4tzH-bA8N,C`Ob{/)DtsFm618k9MoMD"e<6P:[g*3[""/,zI1J_gDv&m(dMvct.|Ua1~<Lur:5cvd05GdD:fx\1Ad;j';&Hxep9baq*b#y}|&%{XV|R@*d#!wp ^lP)cS yF6~xQZ|mpi
+```
+
 ### Ejercicio 13
 
 Escribe un programa que simule la tirada de dos dados. El programa deberá continuar tirando los dados una y otra vez hasta que en alguna tirada los dos dados tengan el mismo valor.
