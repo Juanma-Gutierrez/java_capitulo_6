@@ -221,6 +221,15 @@ xp/tm9[A>AK;akiP&F1-cG;0j^JZa)6ssn~e}f'|OJC:t=v!mk9vGs;cz\g`y?MM}>[$D1P"~65ye+<b
 
 Escribe un programa que simule la tirada de dos dados. El programa deberá continuar tirando los dados una y otra vez hasta que en alguna tirada los dos dados tengan el mismo valor.
 
+```
+Ejemplos:
+Tirada nº: 1    Dado 1: 4       Dado 2: 2
+Tirada nº: 2    Dado 1: 4       Dado 2: 3
+Tirada nº: 3    Dado 1: 2       Dado 2: 1
+Tirada nº: 4    Dado 1: 6       Dado 2: 6
+Han coincidido los dados con el número 6
+```
+
 ### Ejercicio 14
 
 Realiza un programa que haga justo lo contrario a lo que hace el ejercicio 6. El programa intentará adivinar el número que estás pensando - un número entre 0 y 100 - teniendo para ello 5 oportunidades. En cada intento fallido, el programa debe preguntar si el número que estás pensando es mayor o menor que el que te acaba de decir.
