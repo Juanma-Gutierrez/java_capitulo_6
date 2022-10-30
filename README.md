@@ -600,19 +600,19 @@ Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el 
 ```
 Ejemplo 1:
 Introduzca la longitud del sendero en metros: 7
-| * |
- |  O|
- |   |
-| * |
- |*  |
- | O |
-  |   |
+| *  |
+ |   O|
+ |    |
+|  * |
+ | *  |
+ |  O |
+  |    |
 
 Ejemplo 2:
 Introduzca la longitud del sendero en metros: 5
-  |   |
-  |  O|
- |   |
- | * |
-  |*  |
+  |    |
+  |   O|
+ |    |
+ |  * |
+  |*   |
 ```
