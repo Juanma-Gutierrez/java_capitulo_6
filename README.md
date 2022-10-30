@@ -4,6 +4,8 @@ Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis Jo
 
 Este libro está a la venta en <https://leanpub.com/aprendejava>
 
+![image](https://user-images.githubusercontent.com/101201349/198890431-a5598843-2252-4e82-a764-bb1380121200.png)
+
 ## Listado de ejercicios
 
 [01 Ejercicio 1](#ejercicio-1)
@@ -38,6 +40,7 @@ Este libro está a la venta en <https://leanpub.com/aprendejava>
 [30 Ejercicio 30](#ejercicio-30)
 [31 Ejercicio 31](#ejercicio-31)
 [32 Ejercicio 32](#ejercicio-32)
+
 ### Ejercicio 1
 
 Escribe un programa que muestre la tirada de tres dados. Se debe mostrar también la suma total (los puntos que suman entre los tres dados).
@@ -629,7 +632,7 @@ El jugador ha perdido la apuesta
 
 ### Ejercicio 32
 
-Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el carácter “|”. La anchura del sendero siempre es la misma, los dos caracteres del borde más cuatro caracteres en medio, en total 6 caracteres (incluyendo espacios). A cada metro, el sendero puede continuar recto, girar un carácter a la izquierda o girar un carácter a la derecha, por supuesto de forma aleatoria. Por cada metro de sendero - representado por una línea - puede que haya un obstáculo o puede que no, la probabilidad es del 50%. La posición del obstáculo es aleatoria dentro de la línea. En caso de existir un obstáculo en un metro de sendero (en una línea), puede ser una planta (carácter *) o una piedra (carácter O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.
+Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el carácter “|”. La anchura del sendero siempre es la misma, los dos caracteres del borde más cuatro caracteres en medio, en total 6 caracteres (incluyendo espacios). A cada metro, el sendero puede continuar recto, girar un carácter a la izquierda o girar un carácter a la derecha, por supuesto de forma aleatoria. Por cada metro de sendero - representado por una línea - puede que haya un obstáculo o puede que no, la probabilidad es del 50%. La posición del obstáculo es aleatoria dentro de la línea. En caso de existir un obstáculo en un metro de sendero (en una línea), puede ser una planta (carácter \*) o una piedra (carácter O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.
 
 ```
 Ejemplo 1:
