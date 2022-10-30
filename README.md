@@ -562,6 +562,37 @@ X X X X X X X
 
 Realiza el juego del “Craps”. Las reglas son las siguientes: Al comenzar la partida, el jugador introduce la cantidad de dinero que quiere apostar. Se muestra la tirada aleatoria de dos dados. Si entre los dos dados suman 7 u 11, el jugador gana la misma cantidad que apostó y termina la partida. Por ej. si apostó 1000 €, gana otros 1000 € y acaba con 2000 €. Si entre los dos dados suman 2, 3 o 12, el jugador pierde todo su dinero y termina la partida. Si no se da ninguno de los casos anteriores, es decir si sale 4, 5, 6, 8, 9 o 10, el juego entra en una segunda etapa. En esta etapa, el jugador buscará volver a obtener ese número en los dados. Si consigue repetir ese número, gana. Si sale un 7, pierde. Si sale otro número, tiene que seguir tirando.
 
+```
+Ejemplos:
+Por favor, indique cuánto quiere apostar:
+1000
+La tirada del jugador ha sido: 5 y 6
+El jugador ha ganado: 2000
+
+Por favor, indique cuánto quiere apostar:
+1000
+La tirada del jugador ha sido: 6 y 6, es decir, 12
+El jugador ha perdido la apuesta
+
+Por favor, indique cuánto quiere apostar:
+1000
+La tirada del jugador ha sido: 6 y 3
+La siguiente tirada del jugador ha sido: 3 y 1, es decir, 4
+La siguiente tirada del jugador ha sido: 2 y 1, es decir, 3
+La siguiente tirada del jugador ha sido: 5 y 5, es decir, 10
+La siguiente tirada del jugador ha sido: 6 y 5, es decir, 11
+La siguiente tirada del jugador ha sido: 4 y 5, es decir, 9
+El jugador ha ganado: 2000
+
+Por favor, indique cuánto quiere apostar:
+1000
+La tirada del jugador ha sido: 4 y 4
+La siguiente tirada del jugador ha sido: 3 y 1, es decir, 4
+La siguiente tirada del jugador ha sido: 1 y 2, es decir, 3
+La siguiente tirada del jugador ha sido: 4 y 3, es decir, 7
+El jugador ha perdido la apuesta
+```
+
 ### Ejercicio 32
 
 Realiza un programa que pinte un sendero aleatorio. Los bordes se pintan con el carácter “|”. La anchura del sendero siempre es la misma, los dos caracteres del borde más cuatro caracteres en medio, en total 6 caracteres (incluyendo espacios). A cada metro, el sendero puede continuar recto, girar un carácter a la izquierda o girar un carácter a la derecha, por supuesto de forma aleatoria. Por cada metro de sendero - representado por una línea - puede que haya un obstáculo o puede que no, la probabilidad es del 50%. La posición del obstáculo es aleatoria dentro de la línea. En caso de existir un obstáculo en un metro de sendero (en una línea), puede ser una planta (carácter \*) o una piedra (carácter O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.

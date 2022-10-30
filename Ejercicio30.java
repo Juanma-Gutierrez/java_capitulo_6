@@ -46,11 +46,14 @@ public class Ejercicio30 {
 
         // Input data
         do {
-
-            System.out.print("Por favor, introduzca la altura de la pecera (como mínimo 4): ");
-            height = sc.nextInt();
-            System.out.print("Ahora introduzca la anchura (como mínimo 4): ");
-            width = sc.nextInt();
+            if (height < 4) {
+                System.out.print("Por favor, introduzca la altura de la pecera (como mínimo 4): ");
+                height = sc.nextInt();
+            }
+            if (height >= 4) {
+                System.out.print("Ahora introduzca la anchura (como mínimo 4): ");
+                width = sc.nextInt();
+            }
         } while (height < 4 || width < 4);
 
         // Process
