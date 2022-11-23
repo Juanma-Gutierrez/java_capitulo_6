@@ -17,7 +17,7 @@ public class Ejercicio12 {
         int num;
 
         System.out.print("\033[32m");
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             num = (int) ((Math.random() * 95) + 32);
             System.out.print((char) (num));
         }

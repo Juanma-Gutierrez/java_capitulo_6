@@ -22,13 +22,13 @@ public class Ejercicio19 {
         int media;
 
         // Var init
-        max = -100;
-        min = 200;
+        min = -100;
+        max = 200;
         media = 0;
 
         // Process
         for (int i = 0; i < 50; i++) {
-            num = (int) ((Math.random() * 302) - 101);
+            num = (int) ((Math.random() * (max - min)) + min);
             if (num > max && num % 2 == 0)
                 max = num;
             if (num < min && num % 2 != 0)
