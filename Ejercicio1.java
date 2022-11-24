@@ -21,7 +21,7 @@ public class Ejercicio1 {
         sum = 0;
 
         // Process
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i <= 3; i++) {
             num = (int) (Math.random() * 6) + 1;
             System.out.print(num + " ");
             sum += num;
